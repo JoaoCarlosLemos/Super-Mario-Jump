@@ -1,0 +1,77 @@
+
+/*---------- GERAL ----------*/
+
+.quadro-jogo{
+    width: 80%;
+    height: 500px;
+    border: 3px solid rgba(54, 47, 114, 0.541);
+    margin:0 auto;
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#87CEEB, #E0F6FF);
+    border-radius: 5px 80px 5px 80px;
+    box-shadow: -7px 7px 7px rgba(54, 47, 114, 0.199);
+}
+
+span{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color:rgba(54, 47, 114, 0.541);
+}
+
+.pontos-titulo{
+    font-size: .8em;
+    left: 15px; 
+    top:7px; 
+}
+
+.pontos-valor{
+    left:15px; 
+    top:23px; 
+}
+
+.chao{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -10px;
+    animation: animacao_chao 20s infinite linear;
+}
+
+.montanhas{
+    position: absolute;
+    width: 4329px;
+    bottom: -20px;
+    opacity: 0.4;
+    animation: animacao_montanhas 30s infinite linear;
+}
+
+.nuvens{
+    position: absolute;
+    width: 850px; 
+    opacity: 0.4;
+    top:150px;
+    animation: animacao_nuvens 20s infinite linear;
+}
+
+.bala-de-canhao{
+    position: absolute;
+    bottom:0;
+    margin-bottom: 39px;
+    width: 70px;
+    right: -80px;
+}
+
+.mario{
+    width: 90px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 30px;
+    margin-left: 70px;
+}
+
+.pulo{
+    animation: animacao_mario-pulo 600ms ease-out;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/javascript/script.js" defer></script>
+    <title>Mario Jump</title>
+</head>
+<body>
+    <div class="quadro-jogo">
+
+        <div class="tela-start" id="tela_start">
+
+            <audio autoplay loop src="src/audios/tela-inicio.mp3" id="audio-tela-inicio"></audio>
+
+            <img src="src/imagens/logo.png" class="logo">
+            <img src="src/imagens/mario-danca.gif" class="mario-danca">
+            <img src="src/imagens/yosh-danca.gif" class="yosh-danca">
+
+            <button type="submit" id="btnIniciar" class="botao botao-iniciar" onclick="iniciar_jogo()">
+                INICIAR
+            </button>
+
+            <audio  loop src="src/audios/tema.mp3" id="audio-tema"></audio>
+
+        </div>
+
+        <div class="tela-game_over" id="tela_game_over">
+
+            <audio  src="src/audios/game-over.mp3" id="audio-game-over"></audio>
+
+            <span class="span-game_over">
+                <h3 class="titulo-game_over">GAME OVER</h3>
+
+                <div class="centralizar">
+                    <button type="submit" id="btnReiniciar" class="botao botao-reiniciar" onclick="reiniciar_jogo()">
+                        REINICIAR
+                    </button>
+                </div>
+            </span>
+        </div>
+        
+        <span class="pontos-titulo">PONTOS</span>
+        <span class="pontos-valor" id="pontos_valor">0000</span>
+        
+        <img src="src/imagens/nuvens.png" class="nuvens">
+        <img src="src/imagens/montanhas.png" class="montanhas">
+        <img src="src/imagens/mario-yosh.gif" class="mario">
+        <img src="src/imagens/bala-de-canhao.png" class="bala-de-canhao">
+        <img src="src/imagens/chao.png" class="chao">
+
+        <audio  src="src/audios/pulo.mp3" id="audio-pulo"></audio>
+        
+    </div>
+
+    
+</body>
+</html>

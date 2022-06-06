@@ -1,0 +1,64 @@
+
+
+/*---------- TELA INICIAL ----------*/
+
+.tela-start{
+    position: relative;
+    width: 450px;
+    background: rgba(0, 0, 0, 0.144);
+    margin:0 auto;
+    margin-top: 30px;
+    z-index: 1;
+    display: block;
+    border-radius: 0px 40px 0px 40px;
+    border: 3px solid rgba(54, 47, 114, 0.103);
+}
+
+.logo{
+    position: relative;
+    top:10px;
+    left:5px;
+}
+
+.mario-danca{
+    position:relative;
+    width: 80px;
+    left:360px;
+    top:7px;
+}
+
+.yosh-danca{
+    position:relative;
+    width: 110px;
+    left:-85px;
+    top:5px;
+}
+
+.botao{
+    font-size: 2em; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    position: relative;
+    cursor: pointer; 
+    background-color: #0981a5;
+    color: #ffffff;
+    border: 4px solid #ffffff;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.267);
+    border-radius: 15px 7px; 
+}
+
+.botao:hover{
+    background-color: #ffffff;
+    color: #0981a5;
+    border: 4px solid #0981a5;
+}
+  
+.botao:active{
+    transform: scale(0.8); 
+  }
+
+.botao-iniciar{
+    top:-20px;
+    left:-35px;
+    width: 140px;
+}
